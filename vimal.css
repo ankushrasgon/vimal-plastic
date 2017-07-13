@@ -1,0 +1,303 @@
+
+
+
+
+ .top-bar{
+    
+    background-color:#094c85;
+    border-bottom-width:1px;
+    border-bottom-style: solid;
+    border-bottom-color:#073964;
+}
+
+ .social-icons a{
+ background:#fff;
+ display:inline-block;
+ width:32px;
+ height:32px;
+text-align: center;
+padding-top: 4px;
+border-radius:50%;
+font-size: 18px;
+margin-top: 15px;   
+margin-right:4px;;
+float:left;
+}
+
+ul{
+ list-style-type: none; 
+}
+
+
+.menu-top li{
+    
+    padding-top: 20px;
+     color:#fff;
+    list-style-type: none;
+    float: left;
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.navbar{
+margin-top: 12px;   
+background-color:rgba(0, 0, 0, 0.83);
+border-top-color:#999;
+border-top-style:solid;
+border-top-width:1px;    
+
+border-bottom-color: #999;
+border-bottom-style:solid;
+border-bottom-width:1px;        
+}
+
+.navbar ul li:hover > ul{
+     display: block !important;
+}
+
+.navbar ul li ul li>a{
+padding-top: 8px;
+padding-left: 14px;
+padding-right: 14px;
+padding-bottom: 8px;
+background-color: #fff;    
+}
+
+
+
+.navbar .nav .nav-item .dropdown-menu{
+    padding: 0px;
+}
+
+
+
+.nav-item a{
+    color:#fff;
+    font-size: 13px;
+    padding:0px;
+    font-family: sans-serif;
+}
+
+
+.nav-item a:hover{
+    color: #333;
+    
+}
+
+
+ .icon-bar {
+    background-color: #fff;
+}
+
+.dropdown-menu{
+    
+    padding: 0px;
+}
+
+.dropdown-menu a{
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color:#5893c5;
+}
+
+
+
+
+.menu-top li a{
+    display:inline-block;
+    color:#fff;
+    padding-right: 15px;
+}
+
+
+
+
+.footer{
+    margin-top: 10px;
+    
+    color: white;
+    background-color: rgba(85, 160, 189, 0.81);
+}
+
+.footer-content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 13px;
+    
+}
+
+.footer-col-inner a{
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-right:65px;
+    color: black;
+    
+}
+.footer-col-inner li{
+    padding: 7px;
+}
+
+
+.bottom-bar{
+    background-color: #637f96;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.copyright{
+    padding-left: 180px;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .bottom-bar {
+    background-color: #637f96;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+    .copyright{
+    padding-left: 20px;
+}
+    
+    }
+
+
+.copyright a{
+    font-size: 13.5px;
+     font-family: sans-serif;
+    color:#333;
+  
+}
+
+
+.social-buttons{
+    
+    margin-right: 50px;
+}
+.social a{
+margin-right: 10px;
+float:left;    
+width:25px;
+height:22px;
+border-radius:50%;
+font-size: 19px;
+color: #fff;   
+}
+
+
+#topcontrol {
+    background-color: #000;
+    color:#fff;
+    text-align: center;
+    display: inline-block;
+    width: 35px;
+    height: 32px;
+    border: none;
+    border-radius: 2px;
+    background-clip: padding-box;
+    font-size: 21px;
+
+}
+
+#topcontrol:hover{
+    background-color:#d9534f;
+}
+
+.ab{
+    padding-top:5px; 
+    padding-bottom:5px;    
+    padding-right:240px;
+}
+#abc{
+ padding-top: 25px;   
+ padding-right: 240px;
+padding-bottom: 25px;    
+}
+
+.reqform{
+    
+    padding-bottom: 10px;
+}
+
+
+
+/**** BASE ****/
+body {
+    color: #888;   
+}
+a {
+    color: #03a1d1;
+    text-decoration: none!important;
+}
+
+/**** LAYOUT ****/
+.list-inline>li {
+    padding: 0 10px 0 0;
+}
+.container-pad {
+    padding: 30px 15px;
+}
+
+
+/**** MODULE ****/
+.bgc-fff {
+    background-color: #fff!important;
+}
+.box-shad {
+    -webkit-box-shadow: 1px 1px 0 rgba(0,0,0,.2);
+    box-shadow: 1px 1px 0 rgba(0,0,0,.2);
+}
+.brdr {
+    border: 1px solid #ededed;
+}
+
+/* Font changes */
+.fnt-smaller {
+    font-size: .9em;
+}
+.fnt-lighter {
+    color: #bbb;
+}
+
+/* Padding - Margins */
+.pad-10 {
+    padding: 10px!important;
+}
+.mrg-0 {
+    margin: 0!important;
+}
+.btm-mrg-10 {
+    margin-bottom: 10px!important;
+}
+.btm-mrg-20 {
+    margin-bottom: 20px!important;
+}
+
+/* Color  */
+.clr-535353 {
+    color: #535353;
+}
+
+
+
+
+/**** MEDIA QUERIES ****/
+@media only screen and (max-width: 991px) {
+    #property-listings .property-listing {
+        padding: 5px!important;
+    }
+    #property-listings .property-listing a {
+        margin: 0;
+    }
+    #property-listings .property-listing .media-body {
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #property-listings .property-listing img {
+        max-width: 180px;
+    }
+}
